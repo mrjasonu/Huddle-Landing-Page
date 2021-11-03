@@ -57,6 +57,9 @@ main img {
     background-color: gray;
     width: 80%;
     border-radius: 25px;
+    position: relative;
+    left: 150px;
+    margin-bottom: 50px;
 }
 
 .banners img{
