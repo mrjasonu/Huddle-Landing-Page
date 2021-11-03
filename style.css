@@ -53,7 +53,56 @@ main img {
     top: 95px;
 }
 /* ---SEPERATOR--- */
-.banners img{
-    width: 300px;
+.banners {
+    background-image: url(./images/bg-section-top-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+    /* background-size: 100% 1000px; */
 }
 
+.banners img{
+    width: 300px;
+    position: relative;
+    top: 30px;
+    margin-bottom: 100px;
+}
+
+.banners h3, .banners p {
+    margin-left: 200px;
+}
+
+.banners h3 {
+    font-size: 30px;
+}
+
+.banners img {
+    position: relative;
+    left: 60%;
+    bottom: 90px;
+}
+
+.banner-text {
+    position: relative;
+    top: 200px;
+}
+/* ---SEPERATOR--- */
+footer {
+    text-align: center;
+}
+
+footer h2 {
+    font-weight: 900px;
+    font-size: 30px;
+    position: relative;
+    bottom: 20px;
+}
+
+footer a {
+    border: 2px solid pink;
+    color: pink;
+    border-radius: 30%;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+}
